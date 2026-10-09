@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+   float c;
+   int a;
+   int b;
+   char inicial;
+   
+   printf("ingresar valor de cateto a \n");
+   scanf("%d", &a);
+   
+   printf("ingresar valor a cateto b \n");
+   scanf("%d", &b);
+   printf("ingresa una letra \n");
+   scanf("%d", &inicial);
+   
+   c = a + a + b + b;
+   
+   printf("letras es %d", inicial);
+   
+/*printf("%d, %d", a, b); */
+
+
+    return 0;
+}

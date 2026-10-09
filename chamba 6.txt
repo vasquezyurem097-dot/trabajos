@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main() {
+
+    float cal1, cal2, cal3;
+    float cal4, cal5, cal6;
+    float promedio1, promedio2;
+
+    printf("Dame la calificacion 1 del alumno 1: ");
+    scanf("%f", &cal1);
+
+    printf("Dame la calificacion 2 del alumno 1: ");
+    scanf("%f", &cal2);
+
+    printf("Dame la calificacion 3 del alumno 1: ");
+    scanf("%f", &cal3);
+
+    printf("Dame la calificacion 1 del alumno 2: ");
+    scanf("%f", &cal4);
+
+    printf("Dame la calificacion 2 del alumno 2: ");
+    scanf("%f", &cal5);
+
+    printf("Dame la calificacion 3 del alumno 2: ");
+    scanf("%f", &cal6);
+
+    promedio1 = (cal1 + cal2 + cal3) / 3;
+    promedio2 = (cal4 + cal5 + cal6) / 3;
+
+    printf("Promedio del alumno 1: %.2f\n", promedio1);
+    printf("Promedio del alumno 2: %.2f\n", promedio2);
+
+    if (promedio1 > promedio2) {
+        printf("El alumno 1 saco el promedio mas alto.\n");
+    }
+    else if (promedio2 > promedio1) {
+        printf("El alumno 2 saco el promedio mas alto.\n");
+    }
+    else {
+        printf("Los dos alumnos tienen el mismo promedio.\n");
+    }
+
+    return 0;
+}

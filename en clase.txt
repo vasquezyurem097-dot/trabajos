@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+   int numero = 4;
+   float otroNumero = 4.00;
+   
+   char unaLetra = 'a';
+   char otraLetra = "A";
+   
+   if(unaLetra == otraLetra){
+       printf("si son iguales");
+   }
+   
+   if(numero > otroNumero){
+       printf("pos si es mayor wee \n");
+   }else{
+       
+       printf("no no era mayor wee \n");
+       
+   
+   
+    return 0;
+}

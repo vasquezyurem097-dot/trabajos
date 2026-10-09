@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+
+    float kelvin, celsius;
+
+    printf("Dame la temperatura en Kelvin: ");
+    scanf("%f", &kelvin);
+
+    celsius = kelvin - 273.15;
+
+    if (celsius >= 0 && celsius <= 11) {
+        printf("Esta congelandose");
+    }
+    else if (celsius >= 12 && celsius <= 20) {
+        printf("Esta frio");
+    }
+    else if (celsius >= 21 && celsius <= 30) {
+        printf("Esta templado");
+    }
+    else if (celsius >= 31 && celsius <= 40) {
+        printf("Esta caliente");
+    }
+    else if (celsius >= 41 && celsius <= 50) {
+        printf("Esta en Juarez");
+    }
+
+    return 0;
+}

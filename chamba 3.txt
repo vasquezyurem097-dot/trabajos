@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+  char inicial;
+  float parcial1, parcial2, parcial3;
+  float promedio;
+  
+  
+  printf("dame tu parcial  \n");
+  scanf("%f", &inicial);
+  
+  printf("dame tu parcial 1 \n");
+  scanf("%f", &parcial1);
+  
+  printf("dame tu parcial 1  \n");
+  scanf("%f", &parcial2);
+  
+  printf("dame tu parcial 1  \n");
+  scanf("%f", &parcial3);
+  
+  promedio = (parcial1 + parcial2 + parcial3) / 3;
+  
+  printf("tu inicial es; c, con un promedio final de: %.2f", promedio);
+  
+  
+  
+  
+  
+    return 0;
+}

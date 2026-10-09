@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+  char letra1 = 'o';
+  char letra2 = 'A';
+  char letra3 = 'C';
+  
+  float numero = 7.1;
+ 
+  
+  if(numero > 6 && numero < 7){
+      printf("El numero es mayor a y y menor a 7 \n");
+  }else if(numero >= 7.1 && numero <= 8){
+      
+      printf("El numero es mayor a 7.1 y menora 8 \n");
+          
+      
+  }
+  
+  if(letra1 == letra1 && letra2 == letra3){
+      printf("son iguales \n");
+  }else{
+      printf("no son iguales \n");
+      
+  }
+  
+    return 0;
+}

@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    float cal1, cal2, cal3, promedio;
+    
+    printf("dame la calificacion \n");
+    scanf("%f", &cal1);
+    
+    printf("dame la calificacion \n");
+    scanf("%f", &cal2);
+    
+printf("dame la calificacion \n");
+    scanf("%f", &cal3);
+    
+    promedio = (cal1 + cal2 + cal3)/ 3;
+    
+    if(promedio > 7){
+        printf("pasas bro \n");
+    }else{
+        printf("reprobaste bro....");
+    }
+
+
+    return 0;
+}
